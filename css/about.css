@@ -1,0 +1,111 @@
+/*字体*/
+@font-face{
+    src:url("../font/opensans/OpenSans-Light.ttf");
+    font-family: OpenSansLight;
+}
+@font-face{
+    src:url("../font/opensans/OpenSans-Bold.ttf");
+    font-family: OpenSansBold;
+}
+@font-face{
+    src:url("../font/sourcesanspro/SourceSansPro-Bold.ttf");
+    font-family: SourceSansProBold;
+}
+@font-face{
+    src:url("../font/sourcesanspro/SourceSansPro-BoldItalic.ttf");
+    font-family: SourceSansProBoldItalic;
+}
+/*公共样式--开始*/
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea, th, td, select { margin: 0; padding: 0; }
+*{box-sizing: border-box;}
+html, body { min-height: 100%; }
+body { font-family: "OpenSansLight","Microsoft YaHei"; font-weight: lighter; font-size:14px; color:#333; }
+h1, h2, h3, h4, h5, h6{font-weight:normal;}
+ul,ol { list-style: none; }
+img { border: none; vertical-align: middle; }
+a { text-decoration: none; color: #232323; }
+table { border-collapse: collapse; table-layout: fixed; }
+input, textarea { outline: none; border: none; }
+textarea { resize: none; overflow: auto; }
+.clearfix { zoom: 1; }
+.clearfix:after { content: "."; width: 0; height: 0; visibility: hidden; display: block; clear: both; overflow:hidden; }
+.fl { float: left }
+.fr { float: right }
+.tl { text-align: left; }
+.tc { text-align: center }
+.tr { text-align: right; }
+.ellipse { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.inline{ display: inline-block; *display: inline; *zoom: 1; }
+/*main*/
+#main{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+#main .about_title{
+    text-align: center;color: #32a4be;font-size: 40px;font-weight: lighter;
+    margin-top: 74px;
+}
+#main .line_time{
+    margin-top: 78px;
+}
+#main .network_Introduction .title{
+    font-size: 40px;color: #32a4be;
+    text-align: center;margin-top: 106px;
+}
+#main .network_Introduction .text{
+    font-size: 18px;line-height: 28px;
+    margin-top: 35px;padding: 0 68px;
+    word-break:break-all;
+}
+#main .middle_text{
+    position: relative;
+    width: 570px;
+    height: 132px;
+    margin: 76px auto 0;
+}
+#main .middle_text i.icon_bar{
+    display: block;
+    width: 4px;
+    height: 125px;
+    background-color: #32a4be;
+    position: absolute;left: 0;top: 8px;
+}
+#main .middle_text p.text{
+    margin-left: 30px;font-size: 18px;line-height: 28px;
+    word-break:break-all;
+}
+#main .footer_text{
+    margin-top: 76px;
+}
+#main .footer_text ul{
+    display: flex;padding: 0 68px;
+}
+#main .footer_text ul li{
+    width: 305px;position: relative;height: 376px;
+    overflow: hidden;margin-right: 65px;
+}
+#main .footer_text ul li:last-child{
+    margin-right: 0;
+}
+#main .footer_text ul li p.text{
+    font-size: 16px;color: #000;
+    line-height: 24px;word-break:break-all;
+}
+#main .footer_text ul li i.icon_bar{
+    display: block;width: 100%;
+    position: absolute;left: 0;bottom: 0;
+    height: 11px;background-color: #32a4be;
+}
+#main .road_map{
+    margin-top: 110px;
+    margin-bottom: 116px;
+}
+#main .road_map p.title{
+    font-size: 40px;color: #32a4be;
+    text-align: center;
+}
+#main .road_map_img{
+    width: 100%;
+    margin-top: 62px;
+}
